@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "OmarAdel12345";
 $dbname = "CloudSecurity";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -11,13 +11,11 @@ if ($conn->connect_error) {
 
 $id = $_GET['id'];
 
-$sql = "DELETE FROM Writes WHERE ArticleID=" .$id. "";
+$sql = "UPDATE Article SET Title = '" .$_POST["ArticleTitle"]. "', Content = '" .$_POST["ArticleContent"]. "' WHERE ID=" .$id. "";
 $result = $conn->query($sql);
 
-$sql = "DELETE FROM Article WHERE ID=" .$id. "";
-$result = $conn->query($sql);
+echo "Article Updated";
 
-echo "Article Deleted";
 
 $conn->close();
 ?>

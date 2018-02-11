@@ -24,11 +24,6 @@ INSERT INTO Author(Name) VALUES("Author 2 Name");
 INSERT INTO Author(Name) VALUES("Author 3 Name");
 INSERT INTO Author(Name) VALUES("Author 4 Name");
 INSERT INTO Author(Name) VALUES("Author 5 Name");
-INSERT INTO Author(Name) VALUES("Author 6 Name");
-INSERT INTO Author(Name) VALUES("Author 7 Name");
-INSERT INTO Author(Name) VALUES("Author 8 Name");
-INSERT INTO Author(Name) VALUES("Author 9 Name");
-INSERT INTO Author(Name) VALUES("Author 10 Name");
 
 
 INSERT INTO Article(Title, Content) VALUES("Article 1 Title", "Article 1 Content");
@@ -39,12 +34,8 @@ INSERT INTO Article(Title, Content) VALUES("Article 5 Title", "Article 5 Content
 
 
 INSERT INTO Writes(AuthorID, ArticleID) VALUES(1, 1);
-INSERT INTO Writes(AuthorID, ArticleID) VALUES(2, 1);
-INSERT INTO Writes(AuthorID, ArticleID) VALUES(3, 2);
-INSERT INTO Writes(AuthorID, ArticleID) VALUES(4, 2);
-INSERT INTO Writes(AuthorID, ArticleID) VALUES(5, 3);
-INSERT INTO Writes(AuthorID, ArticleID) VALUES(6, 3);
-INSERT INTO Writes(AuthorID, ArticleID) VALUES(7, 4);
-INSERT INTO Writes(AuthorID, ArticleID) VALUES(8, 5);
-INSERT INTO Writes(AuthorID, ArticleID) VALUES(9, 5);
+INSERT INTO Writes(AuthorID, ArticleID) VALUES(2, 2);
+INSERT INTO Writes(AuthorID, ArticleID) VALUES(3, 3);
+INSERT INTO Writes(AuthorID, ArticleID) VALUES(4, 4);
+INSERT INTO Writes(AuthorID, ArticleID) VALUES(5, 5);
 

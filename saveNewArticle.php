@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "OmarAdel12345";
 $dbname = "CloudSecurity";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
