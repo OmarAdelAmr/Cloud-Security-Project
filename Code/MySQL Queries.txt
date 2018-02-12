@@ -1,3 +1,6 @@
+CREATE DATABASE CloudSecurity;
+
+
 CREATE TABLE Author (
     ID int NOT NULL AUTO_INCREMENT,
     Name varchar(255) NOT NULL,
@@ -19,11 +22,11 @@ CREATE TABLE Writes (
 );
 
 
-INSERT INTO Author(Name) VALUES("Author 1 Name");
-INSERT INTO Author(Name) VALUES("Author 2 Name");
-INSERT INTO Author(Name) VALUES("Author 3 Name");
-INSERT INTO Author(Name) VALUES("Author 4 Name");
-INSERT INTO Author(Name) VALUES("Author 5 Name");
+INSERT INTO Author(Name) VALUES("Author 1");
+INSERT INTO Author(Name) VALUES("Author 2");
+INSERT INTO Author(Name) VALUES("Author 3");
+INSERT INTO Author(Name) VALUES("Author 4");
+INSERT INTO Author(Name) VALUES("Author 5");
 
 
 INSERT INTO Article(Title, Content) VALUES("Article 1 Title", "Article 1 Content");

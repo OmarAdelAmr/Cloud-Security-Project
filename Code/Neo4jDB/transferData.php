@@ -58,7 +58,6 @@ if ($MyResult->num_rows > 0) {
 $sql = "SELECT * FROM Writes";
 $MyResult = $conn->query($sql);
 
-
 if ($MyResult->num_rows > 0) {
     // output data of each row
     while($row = $MyResult->fetch_assoc()) {
